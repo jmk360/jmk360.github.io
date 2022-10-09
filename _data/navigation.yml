@@ -10,8 +10,8 @@ main:
 docs:
   - title: "Category"
     children: 
-      - title: "blog"
-        url: /blog/first-posting/
+      - title: "Category"
+        url: /categories/
       - title: "Tag"
         url: /tags/
 

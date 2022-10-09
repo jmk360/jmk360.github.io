@@ -64,7 +64,7 @@ print("Numbers divisible by 13 are",result)
 
 간단하죠?ㅎ
 
-![](../images/2022-10-09-first-posting/sample.png)
+![sample](../../images/2022-10-09-first-posting/sample.png)
 
 # 와우2
 
