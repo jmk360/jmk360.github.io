@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "첫번 째 블로그입니다.!"
-categories: coding
-tag: [python, blog, jekyll]
+categories: blog
+tag: [blog, jekyll]
 toc: true
 author_profile: false
 sidebar:
@@ -10,7 +10,7 @@ sidebar:
 # search: false
 ---
 
-**[공지사항]** [지킬블로그 신규 업데이트안내 드립니다.](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+**[설명서]** [quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 {: .notice--danger}
 
 <div class="notice--success">
@@ -64,7 +64,7 @@ print("Numbers divisible by 13 are",result)
 
 간단하죠?ㅎ
 
-![image-20221008165334124](../images/2022-10-08-third/image-20221008165334124.png)
+![](../images/2022-10-09-first-posting/sample.png)
 
 # 와우2
 

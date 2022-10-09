@@ -20,7 +20,7 @@ title                    : "JM NOTE"
 title_separator          : "|"
 subtitle                 : "Welcome to JM NOTE. (JM NOTE에 오신 것을 환영합니다.)" # site tagline that appears below site title in masthead
 name                     : "JungMo Kim"
-description              : "JM의 블로그 입니다."
+description              : "JM의 개발 블로그 입니다."
 url                      : "https://jmk360.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
+      comments: true # true : 댓글 기능 활성화 / false : 댓글 기능 비활성화
       share: true
       related: false
       show_date: true
