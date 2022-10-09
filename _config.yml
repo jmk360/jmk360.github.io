@@ -292,4 +292,4 @@ defaults:
       related: false
       show_date: true
 
-date_format: "%Y-%m-%d %Z" 
+date_format: "%Y-%m-%d" 
