@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Home"
+    url: https://jmk360.github.io
   - title: "Category"
     url: /categories/
   - title: "Tag"
