@@ -1,5 +1,5 @@
 ---
-title:  "1. [Jekyll] 블로그 포스팅 연습"
+title:  "1 : [Jekyll] 블로그 포스팅 연습"
 excerpt: "블로그 포스팅 연습"
 categories:
   - Blog

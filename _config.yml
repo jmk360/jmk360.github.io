@@ -218,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 15 # amount of posts to show # Default : 5
 paginate_path: /page:num/
 timezone: Asia/Seoul
 
