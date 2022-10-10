@@ -294,3 +294,4 @@ defaults:
       sidebar_main: true
 
 date_format: "%Y-%m-%d" 
+future: true
