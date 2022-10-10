@@ -11,22 +11,27 @@
             📝 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C# -->
-        <span class="nav__sub-title">Blog</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C -->
+        <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+        <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+        <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+        <span class="nav__sub-title">SW</span>
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/Blog" class="">Blog ({{category[1].size}})</a></li>
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/Git" class="">Git ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+        </span>
+        <span class="nav__sub-title">ETC</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+            <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "posting" %}
-                        <li><a href="/categories/posting" class="">포스팅 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Blog" %}
+                        <li><a href="/categories/Blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
