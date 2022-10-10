@@ -7,20 +7,17 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
-  - title: "대목차2"
-    children: 
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-
-  - title: "대목차2"
-    children: 
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+# docs:
+#   - title: "SW"
+#     children:
+#       - title: "Blog"
+#         url: /categories/Blog
+#       - title: "포스팅"
+#         url: /categories/posting
+#       - title: "categories"
+#         url: /categories/
+#       - title: "Tag"
+#         url: /tags/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

@@ -7,10 +7,11 @@ categories:
   - Blog
 tags:
   - [Blog, jekyll, Github]
-
 toc: true
 toc_sticky: true
- 
+author_profile: false
+sidebar_main: true
+# search: false
 date: 2022-10-10
 last_modified_at: 2022-10-10
 ---
@@ -34,3 +35,25 @@ for i in range(1, 10):
     print('{} * {} = {}'.format(i, j, i*j))
   print('='*10)
 ```
+
+# 공지사항 추가
+
+**[공지사항]**[구글](https://www.google.com)
+{: .notice--danger}
+
+## 여러줄 공지사항 추가
+<div class="notice--success">
+<h4>공지사항입니다.</h4>
+<ul>
+    <li>공지사항 순서1</li>
+    <li>공지사항 순서2</li>
+    <li>공지사항 순서3</li>
+</ul>
+</div>
+
+# 버튼 추가
+
+[구글](https://www.google.com){: .btn .btn--danger}
+
+# youtube 영상 추가
+{% include video id="V5kFzKkRSLw" provider="youtube" %}
