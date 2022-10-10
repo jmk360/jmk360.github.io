@@ -1,19 +1,22 @@
 ---
-title:  "[Jekyll] 블로그 포스팅하는 방법"
-layout: single
-classes: wide
+title:  "1. [Jekyll] 블로그 포스팅 연습"
 excerpt: "블로그 포스팅 연습"
 categories:
   - Blog
 tags:
   - [Blog, jekyll, Github]
+date: 2022-10-10
+last_modified_at: 2022-10-10
+
+layout: single
+classes: wide
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar_main: true
+sidebar:
+  nav:
 # search: false
-date: 2022-10-10
-last_modified_at: 2022-10-10
 ---
 
 # 와우
