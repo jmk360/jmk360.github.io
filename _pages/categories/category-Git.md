@@ -1,5 +1,5 @@
 ---
-title: "Git & GitHub"
+title: "Git"
 permalink: categories/Git
 
 layout: archive
